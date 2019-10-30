@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  identity_url: "https://kbf2018.netlify.com/.netlify/identity"
-  gateway_url: "https://kbf2018.netlify.com/.netlify/git"
+  identity_url: "https://festive-booth-4008fd.netlify.com/.netlify/identity"
+  gateway_url: "https://festive-booth-4008fd.netlify.com/.netlify/git"
   branch: master
 
 publish_mode: editorial_workflow
