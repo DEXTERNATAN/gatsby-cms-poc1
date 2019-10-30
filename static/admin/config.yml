@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  identity_url: "https://festive-booth-4008fd.netlify.com/.netlify/identity"
-  gateway_url: "https://festive-booth-4008fd.netlify.com/.netlify/git"
+  identity_url: "https://kbf2018.netlify.com/.netlify/identity"
+  gateway_url: "https://kbf2018.netlify.com/.netlify/git"
   branch: master
 
 publish_mode: editorial_workflow
@@ -40,6 +40,12 @@ collections: # A list of collections the CMS should be able to edit
         name: site
         fields:
           - { label: Site Title, name: title, widget: string }
+# backend:
+#   name: git-gateway
+#   identity_url: "https://festive-booth-4008fd.netlify.com/.netlify/identity"
+#   gateway_url: "https://festive-booth-4008fd.netlify.com/.netlify/git"
+#   branch: master
+
 # media_folder: static/img
 # public_folder: /img
 
